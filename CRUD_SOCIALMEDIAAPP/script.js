@@ -13,7 +13,7 @@ let posts = document.getElementById('posts');
     formValidation();
  });
 
- // let make if else statement inside our formValidation function(this will help us prevent users from submitting blank input fields)
+ // let make if else statement inside our formValidation function
  let formValidation = () =>{
     if (input.value ===""){
         msg.innerHTML = "Post cannot be blank";
@@ -25,8 +25,6 @@ let posts = document.getElementById('posts');
     }
     
  }
-
- //how to accept data from input fields, let create an object that we will store the input fields collected from users in a variable
   let data = {};//this is where i will store the data
   // we need the acceptData function to work when the user click the submit button
   let acceptData = () =>{
